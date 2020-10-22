@@ -1,0 +1,12 @@
+<div class="navigation">
+    <ul class="navigation__menu">
+        <!-- [style.color]="item.color"-->
+        <li *ngFor="let item of headerService.headers;" class="navigation__item" routerLinkActive="active">
+            <a [routerLink]="'/app/'+item.routeURL"
+               class="navigation__link"
+               href="#" routerLinkActive="active">
+                <span class="nav-text">{{item?.name}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

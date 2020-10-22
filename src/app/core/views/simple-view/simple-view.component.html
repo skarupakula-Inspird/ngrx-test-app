@@ -1,0 +1,21 @@
+<p-treeTable [value]="(rows | async)"
+             [columns]="columns | async"
+             selectionMode="single"
+             (onNodeSelect)="selectionChange($event)"
+             [(selection)]="selectedNode" dataKey="name">
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th *ngFor="let col of columns">
+                {{col.columnHeading}}
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowNode let-rowData="rowData" let-columns="columns">
+        <tr [ttSelectableRow]="rowNode">
+            <td  *ngFor="let col of columns; let i = index;">
+                <p-treeTableToggler [rowNode]="rowNode" *ngIf="i == 0"></p-treeTableToggler>
+                <p [innerHTML]="rowData[col.fieldName]"></p>
+            </td>
+        </tr>
+    </ng-template>
+</p-treeTable>

@@ -1,0 +1,218 @@
+[
+  {
+    "isActive": true,
+    "balance": "$1,771.60",
+    "age": 25,
+    "eyeColor": "brown",
+    "name": "Bonnie Rivers",
+    "gender": "female",
+    "email": "bonnierivers@opticall.com",
+    "address": "487 Wythe Place, Groton, Nebraska, 8200",
+    "registered": "2018-05-11T04:55:17 +04:00",
+    "latitude": -31.399073,
+    "longitude": -134.88581,
+    "tags": [
+      "esse",
+      "qui",
+      "officia",
+      "consequat",
+      "laborum",
+      "voluptate",
+      "dolore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mcbride Case"
+      },
+      {
+        "id": 1,
+        "name": "Rodriguez Ayala"
+      },
+      {
+        "id": 2,
+        "name": "Ashley Glover"
+      }
+    ]
+  },
+  {
+    "isActive": false,
+    "balance": "$1,696.93",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Angeline Summers",
+    "gender": "female",
+    "email": "angelinesummers@opticall.com",
+    "address": "837 Hyman Court, Marbury, Massachusetts, 5496",
+    "registered": "2014-05-29T02:12:46 +04:00",
+    "latitude": 59.07815,
+    "longitude": -126.815831,
+    "tags": [
+      "pariatur",
+      "qui",
+      "sunt",
+      "amet",
+      "ex",
+      "minim",
+      "dolor"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bernice Mann"
+      },
+      {
+        "id": 1,
+        "name": "Stacy Kerr"
+      },
+      {
+        "id": 2,
+        "name": "Myrna Carpenter"
+      }
+    ]
+  },
+  {
+    "isActive": false,
+    "balance": "$1,078.09",
+    "age": 24,
+    "eyeColor": "green",
+    "name": "Richmond Roberson",
+    "gender": "male",
+    "email": "richmondroberson@opticall.com",
+    "address": "423 Harbor Court, Jacksonwald, Maryland, 9961",
+    "registered": "2015-03-06T05:55:58 +05:00",
+    "latitude": -32.071657,
+    "longitude": 144.974754,
+    "tags": [
+      "minim",
+      "irure",
+      "elit",
+      "culpa",
+      "cupidatat",
+      "laboris",
+      "ad"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marcia Hancock"
+      },
+      {
+        "id": 1,
+        "name": "Madge Hayden"
+      },
+      {
+        "id": 2,
+        "name": "Tamera Klein"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "balance": "$1,284.53",
+    "age": 25,
+    "eyeColor": "brown",
+    "name": "Ada Johnson",
+    "gender": "female",
+    "email": "adajohnson@opticall.com",
+    "address": "969 Banker Street, Gloucester, Alaska, 1182",
+    "registered": "2017-11-28T04:41:56 +05:00",
+    "latitude": 50.15313,
+    "longitude": -24.24716,
+    "tags": [
+      "aliquip",
+      "pariatur",
+      "consectetur",
+      "elit",
+      "sint",
+      "commodo",
+      "fugiat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Janell Shaw"
+      },
+      {
+        "id": 1,
+        "name": "Kimberly Bishop"
+      },
+      {
+        "id": 2,
+        "name": "Owen Pennington"
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "balance": "$3,261.69",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Marva Santana",
+    "gender": "female",
+    "email": "marvasantana@opticall.com",
+    "address": "170 Fenimore Street, Valle, North Carolina, 2781",
+    "registered": "2014-03-04T09:44:50 +05:00",
+    "latitude": 1.987018,
+    "longitude": 45.713688,
+    "tags": [
+      "cillum",
+      "esse",
+      "duis",
+      "duis",
+      "dolor",
+      "ea",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Hines Allen"
+      },
+      {
+        "id": 1,
+        "name": "Bethany Finch"
+      },
+      {
+        "id": 2,
+        "name": "Kay Robbins"
+      }
+    ]
+  },
+  {
+    "isActive": false,
+    "balance": "$3,721.64",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Payne Odonnell",
+    "gender": "male",
+    "email": "payneodonnell@opticall.com",
+    "address": "672 Creamer Street, Bedias, Pennsylvania, 576",
+    "registered": "2017-09-11T03:10:34 +04:00",
+    "latitude": -31.64372,
+    "longitude": -44.096515,
+    "tags": [
+      "officia",
+      "consequat",
+      "deserunt",
+      "laborum",
+      "incididunt",
+      "incididunt",
+      "quis"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sutton Bradley"
+      },
+      {
+        "id": 1,
+        "name": "Miles Holloway"
+      },
+      {
+        "id": 2,
+        "name": "Rocha Russell"
+      }
+    ]
+  }
+]

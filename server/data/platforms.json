@@ -1,0 +1,229 @@
+[
+  {
+    "standardFields": {
+      "CREATED_BY": "S1.2.1:1",
+      "MODIFIED_BY": "S1.2.1:5",
+      "CREATED_DATE": "2020-04-19 00:00:00",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "2020-09-21 00:00:00",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cp\u003eUnmanned Aerial Vehicles\u003c/p\u003e\u003cp\u003eUnmanned Aerial Vehicles\u003c/p\u003e\u003cp\u003eUnmanned Aerial Vehicles\u003c/p\u003e\u003cp\u003eUnmanned Aerial Vehicles\u003c/p\u003e\u003cp\u003eUnmanned Aerial \u003cstrong\u003eVehicles\u003c/strong\u003e\u003c/p\u003e",
+      "OWNER_NAME": "Test User",
+      "ALTERNATETITLES": "",
+      "TITLE": "UAVs",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P1"
+    },
+    "customFields": {},
+    "number": "P1",
+    "dtoType": "PLATFORM",
+    "ownerEmail": "test@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "A1",
+      "MODIFIED_BY": "A1",
+      "CREATED_DATE": "2020-07-15 00:00:00",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "2020-08-27 00:00:00",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eBomber  A/C\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Admin ",
+      "ALTERNATETITLES": "",
+      "TITLE": "Bomber Aircraft",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P2"
+    },
+    "customFields": {},
+    "number": "P2",
+    "projectList": [
+      "P2:1.2",
+      "P2:1.1",
+      "P2:4",
+      "P2:1",
+      "P2:4.1"
+    ],
+    "dtoType": "PLATFORM",
+    "ownerEmail": "admin@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "A1",
+      "MODIFIED_BY": "A1",
+      "CREATED_DATE": "2020-06-16 00:00:00",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "2020-07-15 00:00:00",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eFighter Aircraft\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Admin ",
+      "ALTERNATETITLES": "",
+      "TITLE": "Fighter Aircraft",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P3"
+    },
+    "customFields": {},
+    "number": "P3",
+    "projectList": [
+      "P3:2.1",
+      "P3:1.1",
+      "P3:2",
+      "P3:1"
+    ],
+    "dtoType": "PLATFORM",
+    "ownerEmail": "admin@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "A1",
+      "MODIFIED_BY": "S3.1.1:0",
+      "CREATED_DATE": "2020-06-17 00:00:00",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "2020-06-17 00:00:00",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eAir Lift Capability\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Admin ",
+      "ALTERNATETITLES": "",
+      "TITLE": "Freighter Aircraft",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P4"
+    },
+    "customFields": {},
+    "number": "P4",
+    "dtoType": "PLATFORM",
+    "ownerEmail": "admin@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "A1",
+      "MODIFIED_BY": "",
+      "CREATED_DATE": "",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan alignmentBaseline\u003d\"useDominantBaseline\" backgroundAlpha\u003d\"1\" backgroundColor\u003d\"transparent\" baselineShift\u003d\"0\" breakOpportunity\u003d\"auto\" cffHinting\u003d\"horizontalStem\" color\u003d\"#5d5d5d\" digitCase\u003d\"default\" digitWidth\u003d\"default\" dominantBaseline\u003d\"auto\" fontFamily\u003d\"Arial\" fontLookup\u003d\"embeddedCFF\" fontSize\u003d\"12\" fontStyle\u003d\"normal\" fontWeight\u003d\"normal\" kerning\u003d\"auto\" ligatureLevel\u003d\"common\" lineHeight\u003d\"120%\" lineThrough\u003d\"false\" locale\u003d\"en\" renderingMode\u003d\"cff\" textAlpha\u003d\"1\" textDecoration\u003d\"none\" textRotation\u003d\"auto\" trackingLeft\u003d\"0\" trackingRight\u003d\"0\" typographicCase\u003d\"default\"\u003ePassenger \u003c/span\u003e\u003cspan\u003eAircraft\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Admin ",
+      "ALTERNATETITLES": "",
+      "TITLE": "Passenger Aircraft",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P5"
+    },
+    "customFields": {},
+    "number": "P5",
+    "ownerName": "Admin ",
+    "projectList": [
+      "P5:1",
+      "P5:1.1",
+      "P5:2"
+    ],
+    "dtoType": "PLATFORM",
+    "ownerEmail": "admin@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "S1.2.1:1",
+      "MODIFIED_BY": "",
+      "CREATED_DATE": "",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eCommunications Satellites\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Test User",
+      "ALTERNATETITLES": "",
+      "TITLE": "Communications Satellites",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P6"
+    },
+    "customFields": {},
+    "number": "P6",
+    "projectList": [
+      "P6:1",
+      "P6:1.1",
+      "P6:1.2",
+      "P6:4",
+      "P6:4.1",
+      "P6:4.2",
+      "P6:7",
+      "P6:7.1",
+      "P6:7.2",
+      "P6:9",
+      "P6:9.1",
+      "P6:9.2",
+      "P6:11"
+    ],
+    "dtoType": "PLATFORM",
+    "ownerEmail": "test@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "A1",
+      "MODIFIED_BY": "",
+      "CREATED_DATE": "",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eISR\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Admin ",
+      "ALTERNATETITLES": "",
+      "TITLE": "ISR Satellite",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P7"
+    },
+    "customFields": {},
+    "number": "P7",
+    "projectList": [
+      "P7:1.2",
+      "P7:1",
+      "P7:1.1",
+      "P7:4",
+      "P7:4.1",
+      "P7:6",
+      "P7:6.1"
+    ],
+    "dtoType": "PLATFORM",
+    "ownerEmail": "admin@test.com",
+    "parentNumber": "0"
+  },
+  {
+    "standardFields": {
+      "CREATED_BY": "S1.2.1:1",
+      "MODIFIED_BY": "S3.1.1:0",
+      "CREATED_DATE": "2020-06-17 00:00:00",
+      "Info": "",
+      "Attachment_Cnt": "",
+      "MODIFIED_DATE": "2020-06-18 00:00:00",
+      "IS_ARCHIVED": "",
+      "DESCRIPTION": "\u003cTextFlow whiteSpaceCollapse\u003d\"preserve\" version\u003d\"3.0.0\" xmlns\u003d\"http://ns.adobe.com/textLayout/2008\"\u003e\u003cp\u003e\u003cspan\u003eRockets\u003c/span\u003e\u003c/p\u003e\u003c/TextFlow\u003e",
+      "OWNER_NAME": "Test User",
+      "ALTERNATETITLES": "",
+      "TITLE": "Space Launch Vehicles",
+      "LABELS": "",
+      "ColorBlock": "#ffffff",
+      "PLATFORM_NO": "P8"
+    },
+    "customFields": {},
+    "number": "P8",
+    "dtoType": "PLATFORM",
+    "ownerEmail": "test@test.com",
+    "parentNumber": "0"
+  }
+]

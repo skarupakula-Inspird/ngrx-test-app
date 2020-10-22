@@ -1,0 +1,9 @@
+<app-side-nav-view
+    [sideNavRows]="platforms$"
+    [sideNavcolumns]="columns$"
+    (sideNavNodeSelection)="loadProjectsForSelectedPlatform($event)"
+    [rows]="projects$"
+    [columns]="projectColumns$"
+    (nodeSelection)="selectedProject($event)"
+>
+</app-side-nav-view>
