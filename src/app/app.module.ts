@@ -7,7 +7,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {MainComponent} from './components/main/main.component';
 import {HeaderComponent} from './components/header/header.component';
-import {ListingComponent} from './components/listing/listing.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CoreModule} from './core/core.module';
 import {ProjectModule} from './projects/project.module';
@@ -16,13 +15,14 @@ import {ConfigurationService} from './core/services/configuration.service';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {PlatformModule} from './platforms/platform.module';
 import {EffectsModule} from '@ngrx/effects';
+import { SummeryPopupComponent } from './components/summery-popup/summery-popup.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         MainComponent,
         HeaderComponent,
-        ListingComponent
+        SummeryPopupComponent
     ],
     imports: [
         BrowserModule,

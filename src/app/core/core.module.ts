@@ -11,6 +11,7 @@ import { SideNavViewComponent } from './views/side-nav-view/side-nav-view.compon
 import {CodeMaterialModule} from '../material/code.material.module';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {InspirdStoreService} from './store/inspird.store';
+import { PopupService } from './services/popup.service';
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import {InspirdStoreService} from './store/inspird.store';
     ],
     providers: [
         HeaderService,
-        InspirdStoreService
+        InspirdStoreService,
+        PopupService
     ],
 })
 export class CoreModule {

@@ -19,16 +19,10 @@ export class ProjectService {
 
 
     getAll() {
-        this.httpClient.get(`${API_URL}/projects`)
+       return this.httpClient.get(`${API_URL}/projects`)
             .pipe(map((resp: Array<EntityMap>) =>
                     updateFields(this.configSerivce.getConfigurationByName('PROJECT'), resp )),
-                map((reps: Array<EntityMap>) => entityMapToTreeNodeConverter(reps)))
-            .subscribe(projects => {
-                if (projects) {
-                    this.projects = [...this.projects, ...projects];
-                    this.projects$.next(this.projects);
-                }
-            });
+                map((reps: Array<EntityMap>) => entityMapToTreeNodeConverter(reps)));
     }
 
     getByPlatform(platform: EntityMap) {

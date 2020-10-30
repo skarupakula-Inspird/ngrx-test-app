@@ -20,7 +20,12 @@
     "number": "P1",
     "dtoType": "PLATFORM",
     "ownerEmail": "test@test.com",
-    "parentNumber": "0"
+    "parentNumber": "0",
+    "projectList": [
+      "P1:1",
+      "P1:2",
+      "P1:3"
+    ]
   },
   {
     "standardFields": {
@@ -50,7 +55,12 @@
     ],
     "dtoType": "PLATFORM",
     "ownerEmail": "admin@test.com",
-    "parentNumber": "0"
+    "parentNumber": "0",
+    "projectList": [
+      "P2:1",
+      "P2:2",
+      "P2:3"
+    ]
   },
   {
     "standardFields": {
@@ -72,10 +82,9 @@
     "customFields": {},
     "number": "P3",
     "projectList": [
-      "P3:2.1",
-      "P3:1.1",
+      "P3:1",
       "P3:2",
-      "P3:1"
+      "P3:3"
     ],
     "dtoType": "PLATFORM",
     "ownerEmail": "admin@test.com",
@@ -102,7 +111,12 @@
     "number": "P4",
     "dtoType": "PLATFORM",
     "ownerEmail": "admin@test.com",
-    "parentNumber": "0"
+    "parentNumber": "0",
+    "projectList": [
+      "P4:1",
+      "P4:2",
+      "P4:3"
+    ]
   },
   {
     "standardFields": {
@@ -126,8 +140,8 @@
     "ownerName": "Admin ",
     "projectList": [
       "P5:1",
-      "P5:1.1",
-      "P5:2"
+      "P5:2",
+      "P5:3"
     ],
     "dtoType": "PLATFORM",
     "ownerEmail": "admin@test.com",
@@ -154,18 +168,8 @@
     "number": "P6",
     "projectList": [
       "P6:1",
-      "P6:1.1",
-      "P6:1.2",
-      "P6:4",
-      "P6:4.1",
-      "P6:4.2",
-      "P6:7",
-      "P6:7.1",
-      "P6:7.2",
-      "P6:9",
-      "P6:9.1",
-      "P6:9.2",
-      "P6:11"
+      "P6:2",
+      "P6:3"
     ],
     "dtoType": "PLATFORM",
     "ownerEmail": "test@test.com",
@@ -191,13 +195,9 @@
     "customFields": {},
     "number": "P7",
     "projectList": [
-      "P7:1.2",
       "P7:1",
-      "P7:1.1",
-      "P7:4",
-      "P7:4.1",
-      "P7:6",
-      "P7:6.1"
+      "P7:2",
+      "P7:3"
     ],
     "dtoType": "PLATFORM",
     "ownerEmail": "admin@test.com",
@@ -224,6 +224,11 @@
     "number": "P8",
     "dtoType": "PLATFORM",
     "ownerEmail": "test@test.com",
-    "parentNumber": "0"
+    "parentNumber": "0",
+    "projectList": [
+      "P8:1",
+      "P8:2",
+      "P8:3"
+    ]
   }
 ]

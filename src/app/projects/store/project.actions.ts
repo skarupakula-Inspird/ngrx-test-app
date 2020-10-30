@@ -7,6 +7,11 @@ export const GetProjectByPlatformNo = createAction(
     props<{entity: EntityMap}>()
 );
 
+
+export const GetAllProjects = createAction(
+    '[Inspird] - Load all Projects'
+);
+
 export const ProjectsLoadedSuccess = createAction(
     '[Inspird] - Projects loaded successfully',
     props<{projects: Array<EntityMap>}>()

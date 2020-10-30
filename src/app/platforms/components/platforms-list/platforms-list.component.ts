@@ -44,5 +44,6 @@ export class PlatformsListComponent implements OnInit {
 
     selectPlatform($event: EntityMap) {
         this.selectedPlatform = $event;
+        this.store.dispatch(platformsActions.SelectPlatform({node: this.selectedPlatform}));
     }
 }

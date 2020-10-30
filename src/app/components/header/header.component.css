@@ -119,8 +119,7 @@
 
 li.navigation__item.active {
     background-color: transparent !important;
-    /*border-bottom: 3px solid var(--active-color);*/
-    /*color: var(--active-color) !important;*/
+    color: blue;
 }
 
 

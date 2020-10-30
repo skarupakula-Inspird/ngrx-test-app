@@ -20,7 +20,7 @@ const platformReducer = createReducer(
     on(PlatformActions.SelectPlatform, (state, {node}) => {
         state = {...state, selectedPlatform: node.number};
         return state;
-    }),
+    })
 );
 
 export function reducer(state: PlatformState | undefined, action: Action) {

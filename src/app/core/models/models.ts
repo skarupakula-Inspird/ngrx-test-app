@@ -8,6 +8,7 @@ export class EntityMap implements TreeNode {
     projectList?: string[];
     ownerEmail?: string;
     number?: string;
+    base?: EntityMap;
     dtoType?: string;
     parentNumber?: string;
     basisPlatformNo?: string;
@@ -23,6 +24,10 @@ export class Config {
     customFields?: Field[];
     moduleName?: string;
 
+}
+
+export abstract  class AbstractPopup {
+    abstract afterClosed();
 }
 
 export class Field {
@@ -58,7 +63,7 @@ export class Field {
     fieldName?: string;
     isArchived?: boolean;
     dataProvider?: boolean;
-    fieldValueBKP?: string;
+    fieldValueBKP?: string | number;
     isValid = true;
     errorMessage?: string;
     dataProviderFieldLIst?: Array<any>;

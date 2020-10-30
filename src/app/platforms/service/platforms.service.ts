@@ -30,4 +30,8 @@ export class PlatformsService {
                 map((reps: Array<EntityMap>) => entityMapToTreeNodeConverter(reps)));
     }
 
+    deletePlatform(platform:EntityMap) {
+        return this.httpClient.delete(`${API_URL}/platforms/${platform.number}`);
+    }
+
 }

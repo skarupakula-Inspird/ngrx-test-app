@@ -8,7 +8,7 @@ export const GetAllPlatforms = createAction(
 
 export const PlatformsLoadedSuccess = createAction(
     '[Inspird] - Platforms loaded successfully',
-    props<{platforms: Array<EntityMap>}>()
+    props<{ platforms: Array<EntityMap> }>()
 );
 
 export const PlatformsLoadingFailed = createAction(
@@ -17,11 +17,17 @@ export const PlatformsLoadingFailed = createAction(
 
 export const SelectPlatform = createAction(
     '[Inspird] - Select a Platform',
-        props<{node: EntityMap}>()
+    props<{ node: EntityMap }>()
 );
 
 export const DeleteAPlatform = createAction(
     '[Inspird] - Delete a platform',
-    props<{node: EntityMap}>()
+    props<{ node: EntityMap }>()
 );
+
+export const PlatformDeletedSuccessfully = createAction(
+    '[Inspird] - Delete a platform from store',
+    props<{ node: EntityMap }>()
+);
+
 

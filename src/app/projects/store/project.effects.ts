@@ -21,6 +21,18 @@ export class ProjectEffects {
         }
     );
 
+    loadAllProjects = createEffect(() => {
+            return this.actions$.pipe(
+                ofType(projectActions.GetAllProjects),
+                mergeMap((platform: any) => this.projectService.getAll()
+                    .pipe(
+                        map(projects => (projectActions.ProjectsLoadedSuccess({projects}))),
+                        catchError(() => EMPTY)
+                    ))
+            );
+        }
+    );
+
     constructor(
         private actions$: Actions,
         private projectService: ProjectService

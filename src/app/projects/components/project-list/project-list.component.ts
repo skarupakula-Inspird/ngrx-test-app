@@ -3,6 +3,7 @@ import {Observable} from 'rxjs';
 import {EntityMap, Field} from '../../../core/models/models';
 import {map} from 'rxjs/operators';
 import {getAllVisibleFields} from '../../../core/util/entitymap-to-treenode.converter';
+import * as ProjectSelectors from './../../store/project.selectors';
 import * as ProjectActions from './../../store/project.actions';
 import * as _ from 'lodash';
 import {SelectPlatform} from 'src/app/platforms/store/platforms.actions';
@@ -16,21 +17,22 @@ import {InspirdStoreService} from '../../../core/store/inspird.store';
 export class ProjectListComponent implements OnInit {
 
     platformColumnsForSideNav = ['No.', 'Title'];
+    
     platforms$: Observable<Array<EntityMap>> = new Observable<Array<EntityMap>>(null);
     columns$: Observable<Array<Field>> = new Observable<Array<Field>>();
+    
     projects$: Observable<Array<EntityMap>> = new Observable<Array<EntityMap>>(null);
     projectColumns$: Observable<Array<Field>> = new Observable<Array<Field>>();
 
     constructor(private store: InspirdStoreService) {
-        // Un comment the code when you need to use it.
         /*this.projects$ = this.store.select()
             .pipe(
-                map((projectMap) => _.values(projectMap))
+                map((projectMap) => _.values(projectMap)),
             );
-        this.platforms$ = this.store.select()
+        this.platforms$ = this.store.select(ProjectSelectors.selectAllPlatforms)
             .pipe(
-                map((platformMap) => _.values(platformMap)),
-                map(platforms => platforms.map(platform => Object.assign({}, platform)))
+                map((projectMap) => _.values(projectMap)),
+                map(projects => projects.map(project => Object.assign({}, project)))
             );*/
     }
 
@@ -62,4 +64,5 @@ export class ProjectListComponent implements OnInit {
     selectedProject(project: EntityMap) {
         console.log(project);
     }
+
 }

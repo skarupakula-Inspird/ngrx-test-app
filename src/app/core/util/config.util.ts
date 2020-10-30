@@ -22,7 +22,7 @@ export function updateFields(configuration, list: Array<EntityMap>) {
             configField.errorMessage = '';
             return configField;
         });
-
+        
         return listItem;
     });
 }

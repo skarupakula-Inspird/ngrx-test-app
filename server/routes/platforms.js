@@ -32,8 +32,9 @@ const platformRoutes = (app, fs) => {
                 throw err;
             }
             let  platforms = JSON.parse(data);
+            const platform = platforms.filter(p => p.number == platformId);
             platforms = (platforms || []).filter(p => p.number != platformId);
-            res.send(platformId);
+            res.send(platform);
         });
     });
 };
